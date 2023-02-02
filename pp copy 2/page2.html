@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Italiana&family=Marcellus&family=Montserrat:wght@500&family=Newsreader:opsz@6..72&family=Petit+Formal+Script&family=Playfair+Display&family=Radley&family=Rouge+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #input {
+        font-family: 'DM Sans', sans-serif;
+        color: #FFF3DB;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;   
+        font-size: 70px;
+    }
+    #name {
+        border: 5px solid #264653;
+        border-radius: 15px;
+        width: 80%;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        font-size: 30px;
+        background-color: #FFF3DB;
+    }
+    #play {
+        background-color: #FFF3DB;
+        border: 5px solid #264653;
+        width: 300px;
+        height: 100px;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center; 
+        font-family: 'DM Sans', sans-serif;
+        font-size: 30px;
+        border-radius: 20px;
+        color: #264653
+    }
+    a {
+        text-decoration: none;
+    }
+    #center {
+        padding: 20px;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 780px;
+        height: 455px;
+        background: #6BB6B1;
+        border: 20px solid #264653;
+        border-radius: 100px; 
+    }
+    body {
+        background-color: #4e849adb;
+    }
+</style>
+</head>
+<body>
+    <div id="center">
+    <p id="input">input your name</p>
+    <input type="text" name="name" placeholder="enter your name" style="text-align: center" id="name">
+    <br>
+    <a href="page3.html"><button id="play" type="button" onclick="storeName()">play</button></a></div>
+    <script src="script.js"></script>
+</body>
+</html>
